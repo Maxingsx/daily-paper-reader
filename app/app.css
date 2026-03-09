@@ -2362,6 +2362,17 @@ article.markdown-section {
   font-weight: 400 !important;
 }
 
+.sidebar-nav li:has(> a.dpr-sidebar-root-link) {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.sidebar-nav li:has(> a.dpr-sidebar-root-link).active,
+.sidebar-nav li:has(> a.dpr-sidebar-root-link):hover {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
 .sidebar-nav a.dpr-sidebar-noactive-link.active,
 .sidebar-nav a.dpr-sidebar-noactive-link.router-link-active,
 .sidebar-nav li.active > a.dpr-sidebar-noactive-link {
